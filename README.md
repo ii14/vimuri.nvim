@@ -16,7 +16,7 @@ Adds a `vim://` URI scheme.
 ### `vim://reg/*`: Registers
 
 **Available registers:**
-- `"` - unnamed register (NOTE: has to be escaped with a backslash, ie. `:e vim://reg/\"`)
+- `"` - unnamed register (NOTE: `"` has to be escaped with a backslash, ie. `:e vim://reg/\"`)
 - `a-z` - named registers
 - `0-9` - numbered registers
 
